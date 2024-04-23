@@ -65,7 +65,7 @@ export class CountriesService {
       countriesRequest.push(request);
     })
 
-    return combineLatest(countriesRequest)
+    return combineLatest(countriesRequest);
 
 
   }
